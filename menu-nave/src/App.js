@@ -14,16 +14,18 @@ import Registrar from './components/Registrar'
 function App() {
   return (
      <BrowserRouter>
+     <Sidebar/>
      <Routes>
       <Route path="/" element={<Mapa/>}/>
       <Route path="/Mapa" element={<Mapa/>}/>
       <Route path="/Perfil" element={<Perfil/>}/>
+      <Route path="/login" element={<Login/>}/>
+      <Route path="/registrar" element={<Registrar/>}/>
       <Route path="/Clima" element={<Clima/>}/>
       <Route path="/Salvos" element={<Salvos/>}/>
       <Route path="/Ajuda" element={<Ajuda/>}/>
       <Route path="/Configuração" element={<Conf/>}/>
      </Routes>
-     <Login/> 
      </BrowserRouter>
 
      );
