@@ -8,11 +8,12 @@ import Salvos from './pages/Salvos';
 import Ajuda from './pages/Ajuda';
 import Conf from './pages/Conf';
 import Clima from './pages/Clima';
+import Login from './components/Login';
+import Registrar from './components/Registrar'
 
 function App() {
   return (
      <BrowserRouter>
-    <Sidebar/>
      <Routes>
       <Route path="/" element={<Mapa/>}/>
       <Route path="/Mapa" element={<Mapa/>}/>
@@ -22,8 +23,10 @@ function App() {
       <Route path="/Ajuda" element={<Ajuda/>}/>
       <Route path="/Configuração" element={<Conf/>}/>
      </Routes>
+     <Login/> 
      </BrowserRouter>
-  );
+
+     );
 };
 
 export default App;
