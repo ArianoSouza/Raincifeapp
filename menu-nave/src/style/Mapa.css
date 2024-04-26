@@ -8,9 +8,12 @@ background-color: coral;
 opacity: 20%;
 rotate: 30deg;
 }
-.image-mapa{
-
+.container-mapa{
+z-index: 1;
 }
 .margin{
     margin-left: 50px;
 }
+.pop-up{
+    z-index: 3;
+    }

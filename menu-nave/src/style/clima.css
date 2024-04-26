@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagens{
+    justify-content: center;
+align-items: center;
+display: flex;
+min-height: 100vh;
+background-color: #fff;
+}
+
+.body_cad{
+    width: 700px;
+    height: 65vh;
+    background-color:#4682B4;
+    color:#fff;
+    border-radius: 5%;
+    padding: 30px 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  backdrop-filter: blur(30px);
+  background: url(../components/Imgs/photo-1509803874385-db7c23652552.avif);
+}
+
+.body_cad h1{
+    font-size: 50px;
+    text-align: start;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.body_cad p{
+    font-weight: 400;
+    font-size: 15px;
+
+}
+.body_cad h3{
+    font-size: 20px;
+    text-align: start;
+    font-weight: 500;
+}
+.body_cad h2{
+    font-size: 20px;
+    text-align: start;
+    font-weight: 400;
+}
+
+.mine_card_cli{
+    width: 100px;
+    height: 13vh;
+    background-color: #6495ED;
+    margin-top: 70px;
+    border-radius: 5%;
+    backdrop-filter: blur(30px);
+}
+
+.body_cad .mine_card{
+    position: relative;
+    display: flex;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.mine_card{
+    align-items: flex-start;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.mine_card h3{
+    text-align: center;
+}
+.mine_card p{
+    text-align: center;
+}
+.mine_card .icon{
+    position: relative;
+    color:#fff;
+   margin-left: 40px;
+}
