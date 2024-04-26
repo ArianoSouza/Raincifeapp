@@ -5,6 +5,7 @@
  import {AiFillSetting} from "react-icons/ai"
 import { NavLink } from "react-router-dom";
 import logo2 from  "./Imgs/logo2.png";
+import "../style/sidebar.css"
 
  
  

@@ -1,0 +1,16 @@
+.button-mapa{
+position: absolute;
+width: 650px;
+height: 20px;
+margin-top: 190px;
+border: 0px;
+background-color: coral;
+opacity: 20%;
+rotate: 30deg;
+}
+.image-mapa{
+
+}
+.margin{
+    margin-left: 50px;
+}
